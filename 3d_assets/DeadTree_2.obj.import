@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dxlv3hn4x4s0i"
+path="res://.godot/imported/DeadTree_2.obj-8620eabe90595a43007ed952002ac856.mesh"
+
+[deps]
+
+files=["res://.godot/imported/DeadTree_2.obj-8620eabe90595a43007ed952002ac856.mesh"]
+
+source_file="res://3d_assets/DeadTree_2.obj"
+dest_files=["res://.godot/imported/DeadTree_2.obj-8620eabe90595a43007ed952002ac856.mesh", "res://.godot/imported/DeadTree_2.obj-8620eabe90595a43007ed952002ac856.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -1,0 +1,24 @@
+[gd_scene load_steps=4 format=3 uid="uid://n7570c1fbrw7"]
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_6j2kr"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_scx3q"]
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_ac5go"]
+
+[node name="StaticBody3D" type="StaticBody3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = SubResource("CapsuleMesh_6j2kr")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("CapsuleShape3D_scx3q")
+
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.292568, 0.225821, 0.00865357, -0.00439335, -0.00987652, 0.450066, 0.121309, -0.544983, -0.00457062, 0.362046, -1.19209e-07, -0.384288)
+mesh = SubResource("CylinderMesh_ac5go")
+skeleton = NodePath("../MeshInstance3D")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.965926, 0.258819, 0, -0.258819, 0.965926, 0, 1, 0)
+fov = 71.5986
